@@ -1,0 +1,20 @@
+HOW TO ADD YOUR REAL IMAGES (GROUP 1 - AUTOMATIC DOCUMENT SCANNER)
+==================================================================
+1. Capture 5 to 8 real photos of documents using your mobile phone camera:
+   - Image 1: Printed notes or A4 page tilted at ~20-30 degrees on a dark/wooden table.
+   - Image 2: Receipt or invoice with uneven indoor lighting / hand shadow across the page.
+   - Image 3: Book page or assignment sheet under low-contrast ambient lighting.
+   - Image 4: Document on a cluttered study desk (with pen, notebook, or ruler nearby).
+   - Image 5: Landscape-oriented certificate, form, or ID card.
+
+2. Copy your .jpg / .jpeg / .png photos into this folder:
+   data/real_inputs/
+
+3. Run the real-image evaluation pipeline from the project root:
+   python main.py --real
+
+4. Your processed outputs, 6-stage pipeline diagrams, comparison grid, and CSV metrics
+   will be automatically generated in:
+   - results/real_outputs/
+   - results/real_evaluation_metrics.csv
+   - assets/real_results_grid.png

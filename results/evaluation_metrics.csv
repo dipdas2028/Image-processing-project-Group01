@@ -1,0 +1,5 @@
+Scenario,Corner_Error_px,Boundary_IoU_pct,MSE_Baseline_Otsu,PSNR_Baseline_dB,MSE_Proposed,PSNR_Proposed_dB,Latency_ms
+Img 1: Tilted Clean,3.19,98.75,36799.41,2.47,4562.72,11.54,288.51
+Img 2: Shadow + Noise,4.07,98.53,36673.15,2.49,5741.17,10.54,232.07
+Img 3: Skew + Low Contrast,3.8,98.74,36810.79,2.47,6431.24,10.05,225.5
+Img 4: Cluttered Desk + Shadow,3.97,98.53,37578.49,2.38,6038.65,10.32,242.48
